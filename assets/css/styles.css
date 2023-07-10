@@ -196,6 +196,14 @@ padding-left: 180px;
 max-width: none;
 min-height: 780px;
 }
+
+@media screen and (max-width:576px) {
+  #home {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+
 .home {
   position: relative;
   row-gap: 5rem;

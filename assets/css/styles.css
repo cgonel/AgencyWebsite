@@ -195,15 +195,28 @@ margin: 0;
 padding-left: 180px;
 max-width: none;
 min-height: 780px;
+  background-position: top -260px left;
 }
 
-@media screen and (max-width:576px) {
+@media only screen and (max-width:576px) {
   #home {
     padding-left: 0px;
     text-align: center;
+    background-position: left 730px top -310px;
   }
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 576px) {
+  #home {
+    background-position: top -230px left 0px;
+  }
+}
+
+@media only screen and (min-width: 1280px){
+  #home {
+    background-position: left bottom -490px;
+  }
+}
 .home {
   position: relative;
   row-gap: 5rem;

@@ -189,7 +189,7 @@ img {
 
 /*===== HOME =====*/
 #home {
-  background-image: url(/assets/img/office.jpg);
+  background-image: url(../img/office.jpg);
 width: 100%;
 margin: 0;
 padding-left: 180px;

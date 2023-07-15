@@ -419,7 +419,11 @@ min-height: 780px;
 
 .footer__title {
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
+}
+
+.footer__contact {
+  margin-bottom: var(--mb-2);
 }
 
 .footer__social {
